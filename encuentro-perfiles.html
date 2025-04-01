@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Trabajos - Easy Job</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Easy Job</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="encuentro-perfiles.html">Mis Trabajos</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <div class="dropdown">
+                        <a class="text-white text-decoration-none dropdown-toggle" href="#" role="button" id="userDropdown" data-bs-toggle="dropdown">
+                            <img src="assets/img/avatar.jpg" alt="Avatar" class="rounded-circle me-2" style="width: 32px; height: 32px;">
+                            <span>Mi Perfil</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" href="editor-perfil.html">Editar Perfil</a></li>
+                            <li><a class="dropdown-item active" href="encuentro-perfiles.html">Mis Trabajos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="index.html">Cerrar Sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container py-5">
+        <!-- Perfil del prestador -->
+        <div class="card mb-4">
+            <div class="card-header bg-success text-white">
+                <h5 class="card-title mb-0">Nombre Prestador</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3 mb-4 text-center">
+                        <div class="mb-3">
+                            <img src="assets/img/avatar.jpg" alt="Foto de perfil" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+                        </div>
+                        <div>
+                            <div class="text-warning mb-2">
+                                <span>★★★★☆</span>
+                            </div>
+                            <p class="text-muted">(28 valoraciones)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="mb-4">
+                            <h4 class="mb-3">Descripción/Experiencia/Servicios</h4>
+                            <p>Desarrollo de aplicaciones web y móviles utilizando tecnologías HTML, CSS, JavaScript, React y Node.js. Experiencia en bases de datos SQL y NoSQL.</p>
+                            <p>Especialista en desarrollo frontend con más de 5 años de experiencia en el sector, trabajando con empresas de diferentes tamaños y sectores.</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h5 class="mb-3">Trabajos Realizados</h5>
+                            <div class="list-group">
+                                <div class="list-group-item">
+                                    <div class="d-flex w-100 justify-content-between align-items-center">
+                                        <div>
+                                            <h6 class="mb-0">Trabajo 1</h6>
+                                        </div>
+                                        <div class="text-warning">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-group-item">
+                                    <div class="d-flex w-100 justify-content-between align-items-center">
+                                        <div>
+                                            <h6 class="mb-0">Trabajo 2</h6>
+                                        </div>
+                                        <div class="text-warning">
+                                            <span>★★★★☆</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-group-item">
+                                    <div class="d-flex w-100 justify-content-between align-items-center">
+                                        <div>
+                                            <h6 class="mb-0">Trabajo 3</h6>
+                                        </div>
+                                        <div class="text-warning">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h5 class="mb-3">Comentarios y Calificaciones</h5>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <img src="assets/img/avatar-cliente.jpg" alt="Cliente" class="rounded-circle me-3" style="width: 48px; height: 48px;">
+                                        <div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="mb-0">María López</h6>
+                                                <div class="text-warning">
+                                                    <small>★★★★★</small>
+                                                </div>
+                                            </div>
+                                            <p class="text-muted mb-2">15/03/2023</p>
+                                            <p>Excelente trabajo, muy profesional y atento a los detalles. Entregó el proyecto antes del plazo acordado.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <img src="assets/img/avatar-cliente2.jpg" alt="Cliente" class="rounded-circle me-3" style="width: 48px; height: 48px;">
+                                        <div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6 class="mb-0">Roberto Gómez</h6>
+                                                <div class="text-warning">
+                                                    <small>★★★★☆</small>
+                                                </div>
+                                            </div>
+                                            <p class="text-muted mb-2">28/04/2023</p>
+                                            <p>Buen trabajo, aunque hubo un pequeño retraso en la entrega final. La calidad del trabajo es muy buena.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-between">
+                    <a href="servicios.html" class="btn btn-outline-secondary">Volver a servicios</a>
+                    <a href="#" class="btn btn-success">Contactar</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Historial de servicios -->
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h5 class="card-title mb-0">Historial de servicios</h5>
+            </div>
+            <div class="card-body">
+                <div class="list-group mb-4">
+                    <div class="list-group-item">
+                        <div class="d-flex w-100 justify-content-between align-items-center">
+                            <h5 class="mb-0">Aviso 5</h5>
+                            <span class="badge bg-success">Completado</span>
+                        </div>
+                        <p class="text-muted mb-1">Programación - Juan Pérez</p>
+                        <p class="mb-0">Desarrollo de página web para tienda online con carrito de compras y pasarela de pagos.</p>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="d-flex w-100 justify-content-between align-items-center">
+                            <h5 class="mb-0">Aviso 4</h5>
+                            <span class="badge bg-warning text-dark">En proceso</span>
+                        </div>
+                        <p class="text-muted mb-1">Diseño - María González</p>
+                        <p class="mb-0">Diseño de logo y papelería corporativa para nueva empresa de consultoría.</p>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="d-flex w-100 justify-content-between align-items-center">
+                            <h5 class="mb-0">Aviso 3</h5>
+                            <span class="badge bg-success">Completado</span>
+                        </div>
+                        <p class="text-muted mb-1">Legal - Carlos Rodríguez</p>
+                        <p class="mb-0">Asesoría legal para constitución de empresa y trámites de inicio de actividades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Easy Job</h5>
+                    <p>Conectando servicios profesionales con clientes desde 2023.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Enlaces rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Inicio</a></li>
+                        <li><a href="servicios.html" class="text-white">Servicios</a></li>
+                        <li><a href="editor-perfil.html" class="text-white">Editar Perfil</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p>Email: info@easyjob.com</p>
+                    <p>Teléfono: +56 9 1234 5678</p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2023 Easy Job. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
